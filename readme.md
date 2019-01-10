@@ -4,6 +4,9 @@ npm install live-server -g
 <!-- 目录中启动 -->
 live-server
 
+<!-- 初始化 -->
+npm init
+
 <!-- 设置启动及端口 -->
 在package.json中的scripts增加
 "scripts": {

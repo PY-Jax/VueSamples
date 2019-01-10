@@ -25,6 +25,7 @@
 
 
 </body>
+<script src="../js/utils.js"></script>
 <script src="../js/vue.js"></script>
 <script>
     var app = new Vue({
@@ -48,17 +49,6 @@
             }
         }
     });
-    // 数组排序
-    function sortNum(a,b){
-        return a-b;
-    }
-
-    function sortByKey(array,key){
-	    return array.sort(function(a,b){
-	      var x=a[key];
-	      var y=b[key];
-	      return ((x<y)?-1:((x>y)?1:0));
-	   });
-	};
+    
 </script>
 </html>
